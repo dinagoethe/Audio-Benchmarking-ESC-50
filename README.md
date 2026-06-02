@@ -1,10 +1,5 @@
 # Audio-Benchmarking-ESC-50
 
-# Audio-CRNN-Benchmarking-ESC50
-
-Nama Folder Pengumpulan: 15322001_SitiRamadina_AudioN
-N masih harus diganti
-
 |Identitas||
 |--|--|
 |Nama|Siti Ramadina Goethe K.|
@@ -23,21 +18,20 @@ N masih harus diganti
 
 ## Folder Structure
 ```
-NIM_NamaSingkat_TopikN/
+15322001_SitiRamadina_AudioCRNN/
 ├── report.pdf
 ├── slides_presentasi.pdf
 │
 ├── model_utama/
 │   ├── config.yaml
-│   ├── train_curve.png
-│   ├── val_curve.png
+│   ├── train_val_curve.png
 │   ├── metrics.json
 │   ├── confusion_matrix.png
 │   ├── benchmark_embeddings.csv ← N × d matrix
 │   ├── rsm_cosine.csv ← N × N matrix
 │   ├── rsm_heatmap.png
 │   ├── saliency/
-│   └── [sample_id].png (20–30 sampel)
+│   └── [sample_id].png
 │
 ├── model_pembanding_1/
 │   └── (struktur sama dengan model_utama)
