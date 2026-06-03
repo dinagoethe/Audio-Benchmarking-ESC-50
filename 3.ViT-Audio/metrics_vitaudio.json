@@ -1,0 +1,15 @@
+{
+    "model_name": "ViTAudio",
+    "dataset": "ESC-50",
+    "subset": "All 50 classes",
+    "random_seed": 42,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 8,
+    "epochs_total": 15,
+    "best_epoch": 15,
+    "test_accuracy": 0.0475,
+    "test_f1_weighted": 0.0105,
+    "num_parameters": 85837106,
+    "inference_time_ms_per_sample": 788.8094
+}

@@ -1,0 +1,18 @@
+model_architecture: 'VitAudio'
+optimizer: 'Adam'
+
+audio:
+  sample_rate: 22050
+  n_fft: 1024
+  hop_length: 512
+  n_mels: 128
+  num_classes: 50
+
+training:
+  batch_size: 8
+  num_epochs: 15
+  learning_rate: 0.001
+
+augmentation:
+  frequency_mask: 15
+  time_mask: 40
